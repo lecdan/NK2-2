@@ -1,0 +1,9 @@
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/RacingGame.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/RacingGame_autogen_timestamp_deps.dir
+D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/RacingGame_autogen.dir
