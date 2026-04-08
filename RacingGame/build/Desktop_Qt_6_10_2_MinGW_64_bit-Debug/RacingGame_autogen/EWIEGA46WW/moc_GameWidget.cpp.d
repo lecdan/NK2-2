@@ -5,6 +5,7 @@ D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/RacingGam
   D:/Qt/6.10.2/mingw_64/include/QtCore/QRect \
   D:/Qt/6.10.2/mingw_64/include/QtCore/QSize \
   D:/Qt/6.10.2/mingw_64/include/QtCore/QSizeF \
+  D:/Qt/6.10.2/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.10.2/mingw_64/include/QtCore/q17memory.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/q20iterator.h \
@@ -126,6 +127,7 @@ D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/RacingGam
   D:/Qt/6.10.2/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qtextstream.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qtformat_impl.h \
+  D:/Qt/6.10.2/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qtpreprocessorsupport.h \

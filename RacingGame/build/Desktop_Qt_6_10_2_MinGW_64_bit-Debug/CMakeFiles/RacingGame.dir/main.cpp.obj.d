@@ -417,5 +417,9 @@ CMakeFiles/RacingGame.dir/main.cpp.obj: \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qinputmethod.h \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qlocale.h \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/QList \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/QRect \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/QTimer \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/qtimer.h \
  D:/Qt/6.10.2/mingw_64/include/QtWidgets/QApplication \
  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qapplication.h

@@ -3,6 +3,9 @@
 
 #include <QWidget>
 #include <QKeyEvent>
+#include <QList>
+#include <QRect>
+#include<QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -28,5 +31,22 @@ private:
     int playerY;
     int playerWidth;
     int playerHeight;
+
+    struct Enemy {
+        QRect rect;
+        int speed;
+    };
+    QList<Enemy> enemies;
+
+    bool gameRunning;
+    int score;
+
+    int enemyFrameCounter;
+    int enemyFrameDelay;
+
+    QTimer *gameTimer;
+
+private slots:
+    void updateGame();
 };
 #endif // GAMEWIDGET_H
