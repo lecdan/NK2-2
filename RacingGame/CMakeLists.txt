@@ -23,6 +23,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(RacingGame
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        playercar.h playercar.cpp
+        enemycar.h enemycar.cpp
+        powerup.h powerup.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET RacingGame APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

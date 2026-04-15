@@ -421,15 +421,57 @@ CMakeFiles/RacingGame.dir/GameWidget.cpp.obj: \
  D:/Qt/6.10.2/mingw_64/include/QtCore/QRect \
  D:/Qt/6.10.2/mingw_64/include/QtCore/QTimer \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qtimer.h \
+ D:\MyCode\QtCode\RacingGame\playercar.h \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/QPainter \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qpainter.h \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qpen.h \
+ D:\MyCode\QtCode\RacingGame\enemycar.h \
+ D:\MyCode\QtCode\RacingGame\powerup.h \
  D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/RacingGame_autogen/include/ui_GameWidget.h \
  D:/Qt/6.10.2/mingw_64/include/QtCore/QVariant \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.10.2/mingw_64/include/QtWidgets/QApplication \
  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qapplication.h \
  D:/Qt/6.10.2/mingw_64/include/QtWidgets/QWidget \
- D:/Qt/6.10.2/mingw_64/include/QtGui/QPainter \
- D:/Qt/6.10.2/mingw_64/include/QtGui/qpainter.h \
- D:/Qt/6.10.2/mingw_64/include/QtGui/qtextoption.h \
- D:/Qt/6.10.2/mingw_64/include/QtGui/qpen.h \
  D:/Qt/6.10.2/mingw_64/include/QtCore/QtMath \
- D:/Qt/6.10.2/mingw_64/include/QtCore/qmath.h
+ D:/Qt/6.10.2/mingw_64/include/QtCore/qmath.h \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/QFont \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qfont.h \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/QFile \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/qfile.h \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/qfiledevice.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/QTextStream \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/qtextstream.h \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/QtMinMax \
+ D:/Qt/6.10.2/mingw_64/include/QtCore/qminmax.h

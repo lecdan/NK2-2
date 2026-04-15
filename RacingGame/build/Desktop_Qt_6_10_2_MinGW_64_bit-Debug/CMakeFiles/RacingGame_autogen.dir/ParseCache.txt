@@ -408,4 +408,10 @@ D:/MyCode/QtCode/RacingGame/GameWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
 D:/MyCode/QtCode/RacingGame/GameWidget.cpp
  uic:./ui_GameWidget.h
+D:/MyCode/QtCode/RacingGame/playercar.cpp
 D:/MyCode/QtCode/RacingGame/main.cpp
+D:/MyCode/QtCode/RacingGame/enemycar.h
+D:/MyCode/QtCode/RacingGame/playercar.h
+D:/MyCode/QtCode/RacingGame/powerup.h
+D:/MyCode/QtCode/RacingGame/enemycar.cpp
+D:/MyCode/QtCode/RacingGame/powerup.cpp

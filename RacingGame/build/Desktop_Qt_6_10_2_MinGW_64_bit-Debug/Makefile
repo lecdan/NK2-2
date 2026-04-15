@@ -247,6 +247,30 @@ RacingGame_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.s
 .PHONY : RacingGame_autogen/mocs_compilation.cpp.s
 
+enemycar.obj: enemycar.cpp.obj
+.PHONY : enemycar.obj
+
+# target to build an object file
+enemycar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/enemycar.cpp.obj
+.PHONY : enemycar.cpp.obj
+
+enemycar.i: enemycar.cpp.i
+.PHONY : enemycar.i
+
+# target to preprocess a source file
+enemycar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/enemycar.cpp.i
+.PHONY : enemycar.cpp.i
+
+enemycar.s: enemycar.cpp.s
+.PHONY : enemycar.s
+
+# target to generate assembly for a file
+enemycar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/enemycar.cpp.s
+.PHONY : enemycar.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -271,6 +295,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+playercar.obj: playercar.cpp.obj
+.PHONY : playercar.obj
+
+# target to build an object file
+playercar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/playercar.cpp.obj
+.PHONY : playercar.cpp.obj
+
+playercar.i: playercar.cpp.i
+.PHONY : playercar.i
+
+# target to preprocess a source file
+playercar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/playercar.cpp.i
+.PHONY : playercar.cpp.i
+
+playercar.s: playercar.cpp.s
+.PHONY : playercar.s
+
+# target to generate assembly for a file
+playercar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/playercar.cpp.s
+.PHONY : playercar.cpp.s
+
+powerup.obj: powerup.cpp.obj
+.PHONY : powerup.obj
+
+# target to build an object file
+powerup.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/powerup.cpp.obj
+.PHONY : powerup.cpp.obj
+
+powerup.i: powerup.cpp.i
+.PHONY : powerup.i
+
+# target to preprocess a source file
+powerup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/powerup.cpp.i
+.PHONY : powerup.cpp.i
+
+powerup.s: powerup.cpp.s
+.PHONY : powerup.s
+
+# target to generate assembly for a file
+powerup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/powerup.cpp.s
+.PHONY : powerup.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -292,9 +364,18 @@ help:
 	@echo ... RacingGame_autogen/mocs_compilation.obj
 	@echo ... RacingGame_autogen/mocs_compilation.i
 	@echo ... RacingGame_autogen/mocs_compilation.s
+	@echo ... enemycar.obj
+	@echo ... enemycar.i
+	@echo ... enemycar.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... playercar.obj
+	@echo ... playercar.i
+	@echo ... playercar.s
+	@echo ... powerup.obj
+	@echo ... powerup.i
+	@echo ... powerup.s
 .PHONY : help
 
 

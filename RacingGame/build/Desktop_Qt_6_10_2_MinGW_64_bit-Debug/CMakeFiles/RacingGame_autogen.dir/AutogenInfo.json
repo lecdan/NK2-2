@@ -329,6 +329,24 @@
 			"MU",
 			"EWIEGA46WW/moc_GameWidget.cpp",
 			null
+		],
+		[
+			"D:/MyCode/QtCode/RacingGame/enemycar.h",
+			"MU",
+			"EWIEGA46WW/moc_enemycar.cpp",
+			null
+		],
+		[
+			"D:/MyCode/QtCode/RacingGame/playercar.h",
+			"MU",
+			"EWIEGA46WW/moc_playercar.cpp",
+			null
+		],
+		[
+			"D:/MyCode/QtCode/RacingGame/powerup.h",
+			"MU",
+			"EWIEGA46WW/moc_powerup.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -404,7 +422,10 @@
 	"SOURCES" : 
 	[
 		[ "D:/MyCode/QtCode/RacingGame/GameWidget.cpp", "MU", null ],
-		[ "D:/MyCode/QtCode/RacingGame/main.cpp", "MU", null ]
+		[ "D:/MyCode/QtCode/RacingGame/enemycar.cpp", "MU", null ],
+		[ "D:/MyCode/QtCode/RacingGame/main.cpp", "MU", null ],
+		[ "D:/MyCode/QtCode/RacingGame/playercar.cpp", "MU", null ],
+		[ "D:/MyCode/QtCode/RacingGame/powerup.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

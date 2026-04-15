@@ -9,7 +9,13 @@ RacingGame_autogen/timestamp: \
 	D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/RacingGame_autogen/moc_predefs.h \
+	D:/MyCode/QtCode/RacingGame/enemycar.cpp \
+	D:/MyCode/QtCode/RacingGame/enemycar.h \
 	D:/MyCode/QtCode/RacingGame/main.cpp \
+	D:/MyCode/QtCode/RacingGame/playercar.cpp \
+	D:/MyCode/QtCode/RacingGame/playercar.h \
+	D:/MyCode/QtCode/RacingGame/powerup.cpp \
+	D:/MyCode/QtCode/RacingGame/powerup.h \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QList \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QObject \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QRect \

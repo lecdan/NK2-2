@@ -7,6 +7,10 @@
 #include <QRect>
 #include<QTimer>
 
+class PlayerCar;
+class EnemyCar;
+class PowerUp;
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class GameWidget;
@@ -27,24 +31,34 @@ protected:
 
 private:
     Ui::GameWidget *ui;
-    int playerX;
-    int playerY;
-    int playerWidth;
-    int playerHeight;
 
-    struct Enemy {
-        QRect rect;
-        int speed;
-    };
-    QList<Enemy> enemies;
+    PlayerCar *player;
+    QList<EnemyCar*> enemies;
+    QList<PowerUp*> powerups;
+
+    void startGame();
+    void gameOver();
+    void generateEnemy();
+    void generatePowerUp();
+    void checkCollisions();
+    void updateDifficulty();
+    void loadHighScore();
+    void saveHighScore();
 
     bool gameRunning;
     int score;
+    int highestScore;
 
     int enemyFrameCounter;
     int enemyFrameDelay;
+    float enemyBaseSpeed;
+
+    int slowRemainingFrames;
+    bool holdShield;
+    int shieldRemainingFrames;
 
     QTimer *gameTimer;
+    QTimer *powerUpTimer;
 
 private slots:
     void updateGame();
