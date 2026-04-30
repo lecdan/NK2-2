@@ -20,18 +20,21 @@ void PlayerCar::resetPosition(int windowWidth)
 
 void PlayerCar::draw(QPainter *painter) const
 {
-
-    QLinearGradient grad(x, y, x, y + h);
-    grad.setColorAt(0, Qt::green);
-    grad.setColorAt(1, Qt::darkGreen);
-    painter->setBrush(grad);
-    painter->setPen(Qt::black);
-    painter->drawRect(x, y, w, h);
-    painter->setBrush(Qt::cyan);
-    painter->drawRect(x + 10, y + 10, w - 20, 20);
-    painter->setBrush(Qt::yellow);
-    painter->drawEllipse(x + 5, y + h - 15, 8, 8);
-     painter->drawEllipse(x + w - 13, y + h - 15, 8, 8);
+    if (!pixmap.isNull()) {
+        painter->drawPixmap(x, y, w, h, pixmap);
+    } else {
+        QLinearGradient grad(x, y, x, y + h);
+        grad.setColorAt(0, Qt::green);
+        grad.setColorAt(1, Qt::darkGreen);
+        painter->setBrush(grad);
+        painter->setPen(Qt::black);
+        painter->drawRect(x, y, w, h);
+        painter->setBrush(Qt::cyan);
+        painter->drawRect(x + 10, y + 10, w - 20, 20);
+        painter->setBrush(Qt::yellow);
+        painter->drawEllipse(x + 5, y + h - 15, 8, 8);
+        painter->drawEllipse(x + w - 13, y + h - 15, 8, 8);
+    }
 }
 
 QRect PlayerCar::getRect() const
@@ -39,3 +42,6 @@ QRect PlayerCar::getRect() const
     return QRect(x, y, w, h);
 }
 
+void PlayerCar::setPixmap(const QPixmap &pix) {
+    pixmap = pix;
+}

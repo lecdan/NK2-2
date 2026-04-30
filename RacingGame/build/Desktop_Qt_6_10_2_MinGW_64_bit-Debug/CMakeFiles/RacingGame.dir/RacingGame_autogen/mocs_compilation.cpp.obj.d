@@ -424,4 +424,6 @@ CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qtimer.h \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qtmochelpers.h \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qtmocconstants.h \
- D:/Qt/6.10.2/mingw_64/include/QtCore/q20algorithm.h
+ D:/Qt/6.10.2/mingw_64/include/QtCore/q20algorithm.h \
+ D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\RacingGame_autogen\EWIEGA46WW/moc_StartMenu.cpp \
+ D:/MyCode/QtCode/RacingGame/StartMenu.h

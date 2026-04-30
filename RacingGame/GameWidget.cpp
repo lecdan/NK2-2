@@ -122,6 +122,13 @@ void GameWidget::keyPressEvent(QKeyEvent *event)
 {
     int step = 25;
 
+    if (!gameRunning && event->key() == Qt::Key_Escape) {
+        if (gameTimer->isActive()) gameTimer->stop();
+        if (powerUpTimer->isActive()) powerUpTimer->stop();
+        emit backToMenu();
+        return;
+    }
+
     if (!gameRunning && event->key() == Qt::Key_R) {
         startGame();
         return;
@@ -271,11 +278,13 @@ void GameWidget::checkCollisions()
     for (int i = 0; i < powerups.size(); ++i) {
         PowerUp *p = powerups[i];
         if (playerRect.intersects(p->getRect())) {
-            if (p->getType() == 0) {   // 燃油减速
-                slowRemainingFrames = 120;   // 减速 2 秒 (60 FPS * 2)
-            } else if (p->getType() == 1) {  // 护盾
+            if (p->getType() == 0) {
+                slowRemainingFrames = 120;
+                score+=100;
+            } else if (p->getType() == 1) {
                 holdShield = true;
-                shieldRemainingFrames = 180;  // 护盾持续 3 秒
+                shieldRemainingFrames = 180;
+                score+=100;
             }
             delete p;
             powerups.removeAt(i);
@@ -294,6 +303,13 @@ void GameWidget::gameOver()
 
 void GameWidget::startGame()
 {
+    QPixmap playerImg(":/images/player.png");
+    if (!playerImg.isNull())
+        player->setPixmap(playerImg.scaled(50, 80, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    QPixmap enemyImg(":/images/enemy.png");
+    if (!enemyImg.isNull())
+        EnemyCar::setCommonPixmap(enemyImg.scaled(45, 70, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+
     qDeleteAll(enemies);
     enemies.clear();
     qDeleteAll(powerups);

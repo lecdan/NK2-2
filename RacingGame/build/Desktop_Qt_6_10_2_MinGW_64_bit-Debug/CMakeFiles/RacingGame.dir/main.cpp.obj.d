@@ -421,5 +421,10 @@ CMakeFiles/RacingGame.dir/main.cpp.obj: \
  D:/Qt/6.10.2/mingw_64/include/QtCore/QRect \
  D:/Qt/6.10.2/mingw_64/include/QtCore/QTimer \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qtimer.h \
+ D:\MyCode\QtCode\RacingGame\StartMenu.h \
  D:/Qt/6.10.2/mingw_64/include/QtWidgets/QApplication \
- D:/Qt/6.10.2/mingw_64/include/QtWidgets/qapplication.h
+ D:/Qt/6.10.2/mingw_64/include/QtWidgets/qapplication.h \
+ D:/Qt/6.10.2/mingw_64/include/QtWidgets/QStackedWidget \
+ D:/Qt/6.10.2/mingw_64/include/QtWidgets/qstackedwidget.h \
+ D:/Qt/6.10.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.10.2/mingw_64/include/QtWidgets/qwidget.h

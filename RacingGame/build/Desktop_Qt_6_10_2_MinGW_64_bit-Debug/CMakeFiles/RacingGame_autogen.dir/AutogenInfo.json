@@ -316,7 +316,8 @@
 		"D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
-		"D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
+		"D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
+		"D:/MyCode/QtCode/RacingGame/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/MyCode/QtCode/RacingGame",
 	"CROSS_CONFIG" : false,
@@ -328,6 +329,12 @@
 			"D:/MyCode/QtCode/RacingGame/GameWidget.h",
 			"MU",
 			"EWIEGA46WW/moc_GameWidget.cpp",
+			null
+		],
+		[
+			"D:/MyCode/QtCode/RacingGame/StartMenu.h",
+			"MU",
+			"EWIEGA46WW/moc_StartMenu.cpp",
 			null
 		],
 		[
@@ -422,6 +429,7 @@
 	"SOURCES" : 
 	[
 		[ "D:/MyCode/QtCode/RacingGame/GameWidget.cpp", "MU", null ],
+		[ "D:/MyCode/QtCode/RacingGame/StartMenu.cpp", "MU", null ],
 		[ "D:/MyCode/QtCode/RacingGame/enemycar.cpp", "MU", null ],
 		[ "D:/MyCode/QtCode/RacingGame/main.cpp", "MU", null ],
 		[ "D:/MyCode/QtCode/RacingGame/playercar.cpp", "MU", null ],

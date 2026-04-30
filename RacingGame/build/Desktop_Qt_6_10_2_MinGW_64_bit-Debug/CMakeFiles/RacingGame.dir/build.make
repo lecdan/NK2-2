@@ -75,11 +75,20 @@ RacingGame_autogen/timestamp: CMakeFiles/RacingGame.dir/compiler_depend.ts
 	D:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/RacingGame_autogen.dir/AutogenInfo.json Debug
 	D:\Qt\Tools\CMake_64\bin\cmake.exe -E touch D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/RacingGame_autogen/timestamp
 
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/MyCode/QtCode/RacingGame/resources.qrc
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/RacingGame_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/MyCode/QtCode/RacingGame/player.png
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/MyCode/QtCode/RacingGame/enemy.png
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/Qt/6.10.2/mingw_64/bin/rcc.exe
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/Qt/6.10.2/mingw_64/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources.qrc"
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/RacingGame_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
+
 CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj: CMakeFiles/RacingGame.dir/flags.make
 CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
 CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj: RacingGame_autogen/mocs_compilation.cpp
 CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\RacingGame.dir\RacingGame_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\RacingGame.dir\RacingGame_autogen\mocs_compilation.cpp.obj -c D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\RacingGame_autogen\mocs_compilation.cpp
 
 CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.i: cmake_force
@@ -94,7 +103,7 @@ CMakeFiles/RacingGame.dir/main.cpp.obj: CMakeFiles/RacingGame.dir/flags.make
 CMakeFiles/RacingGame.dir/main.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
 CMakeFiles/RacingGame.dir/main.cpp.obj: D:/MyCode/QtCode/RacingGame/main.cpp
 CMakeFiles/RacingGame.dir/main.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RacingGame.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RacingGame.dir/main.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/main.cpp.obj -MF CMakeFiles\RacingGame.dir\main.cpp.obj.d -o CMakeFiles\RacingGame.dir\main.cpp.obj -c D:\MyCode\QtCode\RacingGame\main.cpp
 
 CMakeFiles/RacingGame.dir/main.cpp.i: cmake_force
@@ -109,7 +118,7 @@ CMakeFiles/RacingGame.dir/GameWidget.cpp.obj: CMakeFiles/RacingGame.dir/flags.ma
 CMakeFiles/RacingGame.dir/GameWidget.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
 CMakeFiles/RacingGame.dir/GameWidget.cpp.obj: D:/MyCode/QtCode/RacingGame/GameWidget.cpp
 CMakeFiles/RacingGame.dir/GameWidget.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RacingGame.dir/GameWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RacingGame.dir/GameWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/GameWidget.cpp.obj -MF CMakeFiles\RacingGame.dir\GameWidget.cpp.obj.d -o CMakeFiles\RacingGame.dir\GameWidget.cpp.obj -c D:\MyCode\QtCode\RacingGame\GameWidget.cpp
 
 CMakeFiles/RacingGame.dir/GameWidget.cpp.i: cmake_force
@@ -124,7 +133,7 @@ CMakeFiles/RacingGame.dir/playercar.cpp.obj: CMakeFiles/RacingGame.dir/flags.mak
 CMakeFiles/RacingGame.dir/playercar.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
 CMakeFiles/RacingGame.dir/playercar.cpp.obj: D:/MyCode/QtCode/RacingGame/playercar.cpp
 CMakeFiles/RacingGame.dir/playercar.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RacingGame.dir/playercar.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RacingGame.dir/playercar.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/playercar.cpp.obj -MF CMakeFiles\RacingGame.dir\playercar.cpp.obj.d -o CMakeFiles\RacingGame.dir\playercar.cpp.obj -c D:\MyCode\QtCode\RacingGame\playercar.cpp
 
 CMakeFiles/RacingGame.dir/playercar.cpp.i: cmake_force
@@ -139,7 +148,7 @@ CMakeFiles/RacingGame.dir/enemycar.cpp.obj: CMakeFiles/RacingGame.dir/flags.make
 CMakeFiles/RacingGame.dir/enemycar.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
 CMakeFiles/RacingGame.dir/enemycar.cpp.obj: D:/MyCode/QtCode/RacingGame/enemycar.cpp
 CMakeFiles/RacingGame.dir/enemycar.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RacingGame.dir/enemycar.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RacingGame.dir/enemycar.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/enemycar.cpp.obj -MF CMakeFiles\RacingGame.dir\enemycar.cpp.obj.d -o CMakeFiles\RacingGame.dir\enemycar.cpp.obj -c D:\MyCode\QtCode\RacingGame\enemycar.cpp
 
 CMakeFiles/RacingGame.dir/enemycar.cpp.i: cmake_force
@@ -154,7 +163,7 @@ CMakeFiles/RacingGame.dir/powerup.cpp.obj: CMakeFiles/RacingGame.dir/flags.make
 CMakeFiles/RacingGame.dir/powerup.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
 CMakeFiles/RacingGame.dir/powerup.cpp.obj: D:/MyCode/QtCode/RacingGame/powerup.cpp
 CMakeFiles/RacingGame.dir/powerup.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RacingGame.dir/powerup.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RacingGame.dir/powerup.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/powerup.cpp.obj -MF CMakeFiles\RacingGame.dir\powerup.cpp.obj.d -o CMakeFiles\RacingGame.dir\powerup.cpp.obj -c D:\MyCode\QtCode\RacingGame\powerup.cpp
 
 CMakeFiles/RacingGame.dir/powerup.cpp.i: cmake_force
@@ -165,6 +174,36 @@ CMakeFiles/RacingGame.dir/powerup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RacingGame.dir/powerup.cpp.s"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyCode\QtCode\RacingGame\powerup.cpp -o CMakeFiles\RacingGame.dir\powerup.cpp.s
 
+CMakeFiles/RacingGame.dir/StartMenu.cpp.obj: CMakeFiles/RacingGame.dir/flags.make
+CMakeFiles/RacingGame.dir/StartMenu.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
+CMakeFiles/RacingGame.dir/StartMenu.cpp.obj: D:/MyCode/QtCode/RacingGame/StartMenu.cpp
+CMakeFiles/RacingGame.dir/StartMenu.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RacingGame.dir/StartMenu.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/StartMenu.cpp.obj -MF CMakeFiles\RacingGame.dir\StartMenu.cpp.obj.d -o CMakeFiles\RacingGame.dir\StartMenu.cpp.obj -c D:\MyCode\QtCode\RacingGame\StartMenu.cpp
+
+CMakeFiles/RacingGame.dir/StartMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RacingGame.dir/StartMenu.cpp.i"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyCode\QtCode\RacingGame\StartMenu.cpp > CMakeFiles\RacingGame.dir\StartMenu.cpp.i
+
+CMakeFiles/RacingGame.dir/StartMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RacingGame.dir/StartMenu.cpp.s"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyCode\QtCode\RacingGame\StartMenu.cpp -o CMakeFiles\RacingGame.dir\StartMenu.cpp.s
+
+CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/RacingGame.dir/flags.make
+CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/RacingGame.dir/includes_CXX.rsp
+CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj: RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp
+CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/RacingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj -MF CMakeFiles\RacingGame.dir\RacingGame_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d -o CMakeFiles\RacingGame.dir\RacingGame_autogen\EWIEGA46WW\qrc_resources.cpp.obj -c D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\RacingGame_autogen\EWIEGA46WW\qrc_resources.cpp
+
+CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.i"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\RacingGame_autogen\EWIEGA46WW\qrc_resources.cpp > CMakeFiles\RacingGame.dir\RacingGame_autogen\EWIEGA46WW\qrc_resources.cpp.i
+
+CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.s"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\RacingGame_autogen\EWIEGA46WW\qrc_resources.cpp -o CMakeFiles\RacingGame.dir\RacingGame_autogen\EWIEGA46WW\qrc_resources.cpp.s
+
 # Object files for target RacingGame
 RacingGame_OBJECTS = \
 "CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.obj" \
@@ -172,7 +211,9 @@ RacingGame_OBJECTS = \
 "CMakeFiles/RacingGame.dir/GameWidget.cpp.obj" \
 "CMakeFiles/RacingGame.dir/playercar.cpp.obj" \
 "CMakeFiles/RacingGame.dir/enemycar.cpp.obj" \
-"CMakeFiles/RacingGame.dir/powerup.cpp.obj"
+"CMakeFiles/RacingGame.dir/powerup.cpp.obj" \
+"CMakeFiles/RacingGame.dir/StartMenu.cpp.obj" \
+"CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
 
 # External object files for target RacingGame
 RacingGame_EXTERNAL_OBJECTS =
@@ -183,6 +224,8 @@ RacingGame.exe: CMakeFiles/RacingGame.dir/GameWidget.cpp.obj
 RacingGame.exe: CMakeFiles/RacingGame.dir/playercar.cpp.obj
 RacingGame.exe: CMakeFiles/RacingGame.dir/enemycar.cpp.obj
 RacingGame.exe: CMakeFiles/RacingGame.dir/powerup.cpp.obj
+RacingGame.exe: CMakeFiles/RacingGame.dir/StartMenu.cpp.obj
+RacingGame.exe: CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj
 RacingGame.exe: CMakeFiles/RacingGame.dir/build.make
 RacingGame.exe: D:/Qt/6.10.2/mingw_64/lib/libQt6Widgets.a
 RacingGame.exe: D:/Qt/6.10.2/mingw_64/lib/libQt6Gui.a
@@ -191,7 +234,7 @@ RacingGame.exe: D:/Qt/6.10.2/mingw_64/lib/libQt6EntryPoint.a
 RacingGame.exe: CMakeFiles/RacingGame.dir/linkLibs.rsp
 RacingGame.exe: CMakeFiles/RacingGame.dir/objects1.rsp
 RacingGame.exe: CMakeFiles/RacingGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable RacingGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable RacingGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RacingGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +245,7 @@ CMakeFiles/RacingGame.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\RacingGame.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/RacingGame.dir/clean
 
+CMakeFiles/RacingGame.dir/depend: RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/RacingGame.dir/depend: RacingGame_autogen/timestamp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\MyCode\QtCode\RacingGame D:\MyCode\QtCode\RacingGame D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles\RacingGame.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RacingGame.dir/depend

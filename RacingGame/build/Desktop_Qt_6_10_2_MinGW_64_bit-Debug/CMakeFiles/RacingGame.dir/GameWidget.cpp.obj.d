@@ -426,6 +426,8 @@ CMakeFiles/RacingGame.dir/GameWidget.cpp.obj: \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qpainter.h \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qtextoption.h \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qpixmap.h \
  D:\MyCode\QtCode\RacingGame\enemycar.h \
  D:\MyCode\QtCode\RacingGame\powerup.h \
  D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/RacingGame_autogen/include/ui_GameWidget.h \

@@ -2,6 +2,8 @@ RacingGame_autogen/timestamp: \
 	D:/MyCode/QtCode/RacingGame/CMakeLists.txt \
 	D:/MyCode/QtCode/RacingGame/GameWidget.cpp \
 	D:/MyCode/QtCode/RacingGame/GameWidget.h \
+	D:/MyCode/QtCode/RacingGame/StartMenu.cpp \
+	D:/MyCode/QtCode/RacingGame/StartMenu.h \
 	D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
 	D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/package-manager.cmake \
 	D:/MyCode/QtCode/RacingGame/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
@@ -16,6 +18,7 @@ RacingGame_autogen/timestamp: \
 	D:/MyCode/QtCode/RacingGame/playercar.h \
 	D:/MyCode/QtCode/RacingGame/powerup.cpp \
 	D:/MyCode/QtCode/RacingGame/powerup.h \
+	D:/MyCode/QtCode/RacingGame/resources.qrc \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QList \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QObject \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QRect \
@@ -602,4 +605,5 @@ RacingGame_autogen/timestamp: \
 	D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
 	D:/MyCode/QtCode/RacingGame/GameWidget.ui \
+	D:/MyCode/QtCode/RacingGame/StartMenu.ui \
 	D:/Qt/Tools/CMake_64/bin/cmake.exe

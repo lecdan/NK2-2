@@ -388,4 +388,6 @@ CMakeFiles/RacingGame.dir/playercar.cpp.obj: \
  D:/Qt/6.10.2/mingw_64/include/QtGui/QPainter \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qpainter.h \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qtextoption.h \
- D:/Qt/6.10.2/mingw_64/include/QtGui/qpen.h
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qpixmap.h

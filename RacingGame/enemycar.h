@@ -3,6 +3,7 @@
 
 #include <QRect>
 #include <QPainter>
+#include <QPixmap>
 
 class EnemyCar
 {
@@ -11,6 +12,8 @@ public:
     void move(float deltaY);
     void draw(QPainter *painter) const;
     bool isOutOfScreen() const;
+    static QPixmap& commonPixmap();
+    static void setCommonPixmap(const QPixmap &pix);
     QRect getRect() const;
 
 private:

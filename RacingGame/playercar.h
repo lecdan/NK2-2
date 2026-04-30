@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QRect>
 #include <QPainter>
+#include <QPixmap>
 
 class PlayerCar
 {
@@ -13,11 +14,13 @@ public:
     void moveRight(int step, int maxX);
     void resetPosition(int windowWidth);
     void draw(QPainter *painter) const;
+    void setPixmap(const QPixmap &pix);
     QRect getRect() const;
 
 private:
     int x, y, w, h;
     QWidget *parent;
+    QPixmap pixmap;
 };
 
 #endif // PLAYERCAR_H

@@ -21,9 +21,13 @@ class GameWidget : public QWidget
 {
     Q_OBJECT
 
+signals:
+    void backToMenu();
+
 public:
     explicit GameWidget(QWidget *parent = nullptr);
     ~GameWidget() override;
+    void startGame();
 
 protected:
     void paintEvent(QPaintEvent *event) override;
@@ -36,7 +40,6 @@ private:
     QList<EnemyCar*> enemies;
     QList<PowerUp*> powerups;
 
-    void startGame();
     void gameOver();
     void generateEnemy();
     void generatePowerUp();

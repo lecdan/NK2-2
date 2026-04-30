@@ -223,6 +223,30 @@ GameWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/GameWidget.cpp.s
 .PHONY : GameWidget.cpp.s
 
+RacingGame_autogen/EWIEGA46WW/qrc_resources.obj: RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : RacingGame_autogen/EWIEGA46WW/qrc_resources.obj
+
+# target to build an object file
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+
+RacingGame_autogen/EWIEGA46WW/qrc_resources.i: RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : RacingGame_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+RacingGame_autogen/EWIEGA46WW/qrc_resources.s: RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : RacingGame_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 RacingGame_autogen/mocs_compilation.obj: RacingGame_autogen/mocs_compilation.cpp.obj
 .PHONY : RacingGame_autogen/mocs_compilation.obj
 
@@ -246,6 +270,30 @@ RacingGame_autogen/mocs_compilation.s: RacingGame_autogen/mocs_compilation.cpp.s
 RacingGame_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/RacingGame_autogen/mocs_compilation.cpp.s
 .PHONY : RacingGame_autogen/mocs_compilation.cpp.s
+
+StartMenu.obj: StartMenu.cpp.obj
+.PHONY : StartMenu.obj
+
+# target to build an object file
+StartMenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/StartMenu.cpp.obj
+.PHONY : StartMenu.cpp.obj
+
+StartMenu.i: StartMenu.cpp.i
+.PHONY : StartMenu.i
+
+# target to preprocess a source file
+StartMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/StartMenu.cpp.i
+.PHONY : StartMenu.cpp.i
+
+StartMenu.s: StartMenu.cpp.s
+.PHONY : StartMenu.s
+
+# target to generate assembly for a file
+StartMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/StartMenu.cpp.s
+.PHONY : StartMenu.cpp.s
 
 enemycar.obj: enemycar.cpp.obj
 .PHONY : enemycar.obj
@@ -361,9 +409,15 @@ help:
 	@echo ... GameWidget.obj
 	@echo ... GameWidget.i
 	@echo ... GameWidget.s
+	@echo ... RacingGame_autogen/EWIEGA46WW/qrc_resources.obj
+	@echo ... RacingGame_autogen/EWIEGA46WW/qrc_resources.i
+	@echo ... RacingGame_autogen/EWIEGA46WW/qrc_resources.s
 	@echo ... RacingGame_autogen/mocs_compilation.obj
 	@echo ... RacingGame_autogen/mocs_compilation.i
 	@echo ... RacingGame_autogen/mocs_compilation.s
+	@echo ... StartMenu.obj
+	@echo ... StartMenu.i
+	@echo ... StartMenu.s
 	@echo ... enemycar.obj
 	@echo ... enemycar.i
 	@echo ... enemycar.s

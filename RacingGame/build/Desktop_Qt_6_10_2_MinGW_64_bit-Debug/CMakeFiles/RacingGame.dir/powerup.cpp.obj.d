@@ -351,4 +351,6 @@ CMakeFiles/RacingGame.dir/powerup.cpp.obj: \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qfont.h \
  D:/Qt/6.10.2/mingw_64/include/QtCore/qendian.h \
  D:/Qt/6.10.2/mingw_64/include/QtGui/qfontvariableaxis.h \
- D:/Qt/6.10.2/mingw_64/include/QtGui/qfontmetrics.h
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qfontmetrics.h \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.10.2/mingw_64/include/QtGui/qpixmap.h

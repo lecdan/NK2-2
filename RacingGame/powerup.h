@@ -3,6 +3,7 @@
 
 #include <QRect>
 #include <QPainter>
+#include <QPixmap>
 
 class PowerUp
 {

@@ -26,6 +26,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         playercar.h playercar.cpp
         enemycar.h enemycar.cpp
         powerup.h powerup.cpp
+        StartMenu.h StartMenu.cpp StartMenu.ui
+        resources.qrc
+
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET RacingGame APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
