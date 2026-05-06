@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QLabel" name="highscoreLabel">
    <property name="geometry">
     <rect>
@@ -44,7 +47,7 @@
        </font>
       </property>
       <property name="text">
-       <string>赛车快跑</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; color:#00ff7f;&quot;&gt;躲避敌车，获得强力道具！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -61,6 +64,15 @@
       <property name="text">
        <string>开始游戏</string>
       </property>
+      <property name="autoDefault">
+       <bool>true</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
      </widget>
     </item>
     <item>
@@ -73,11 +85,41 @@
       <property name="text">
        <string>退出游戏</string>
       </property>
+      <property name="autoDefault">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
      </widget>
     </item>
    </layout>
   </widget>
+  <widget class="QLabel" name="menuLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/images/menu.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>menuLabel</zorder>
+  <zorder>highscoreLabel</zorder>
+  <zorder>layoutWidget</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

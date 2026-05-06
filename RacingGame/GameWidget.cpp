@@ -112,9 +112,9 @@ void GameWidget::paintEvent(QPaintEvent *event)
     }
 
     if (!gameRunning) {
-        painter.setPen(Qt::red);
+        painter.setPen(Qt::yellow);
         painter.setFont(QFont("Arial", 28));
-        painter.drawText(width() / 2 - 140, height() / 2, "GAME OVER - PRESS R");
+        painter.drawText(width() / 2 - 200, height() / 2, "GAME OVER - PRESS R");
     }
 }
 

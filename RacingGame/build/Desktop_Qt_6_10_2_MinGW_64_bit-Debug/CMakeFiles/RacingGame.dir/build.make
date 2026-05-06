@@ -77,6 +77,7 @@ RacingGame_autogen/timestamp: CMakeFiles/RacingGame.dir/compiler_depend.ts
 
 RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/MyCode/QtCode/RacingGame/resources.qrc
 RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/RacingGame_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/MyCode/QtCode/RacingGame/menu.png
 RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/MyCode/QtCode/RacingGame/player.png
 RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/MyCode/QtCode/RacingGame/enemy.png
 RacingGame_autogen/EWIEGA46WW/qrc_resources.cpp: D:/Qt/6.10.2/mingw_64/bin/rcc.exe

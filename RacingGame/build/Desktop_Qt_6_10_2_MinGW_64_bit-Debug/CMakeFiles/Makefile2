@@ -79,8 +79,8 @@ clean: CMakeFiles/RacingGame_autogen.dir/clean
 # Target rules for target CMakeFiles/RacingGame.dir
 
 # All Build rule for target.
-CMakeFiles/RacingGame.dir/all: CMakeFiles/RacingGame_autogen_timestamp_deps.dir/all
 CMakeFiles/RacingGame.dir/all: CMakeFiles/RacingGame_autogen.dir/all
+CMakeFiles/RacingGame.dir/all: CMakeFiles/RacingGame_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RacingGame.dir\build.make CMakeFiles/RacingGame.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyCode\QtCode\RacingGame\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target RacingGame"

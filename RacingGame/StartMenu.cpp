@@ -13,6 +13,7 @@ StartMenu::StartMenu(QWidget *parent)
     QFile file("highestscore.txt");
     if(file.open(QIODevice::ReadOnly)){
         int high=file.readLine().toInt();
+        ui->highscoreLabel->setStyleSheet("color: green; font-size: 18px; font-weight: bold;");
         ui->highscoreLabel->setText(QString("最高分：%1").arg(high));
         file.close();
     }
