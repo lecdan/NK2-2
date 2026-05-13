@@ -17,13 +17,7 @@ void EnemyCar::draw(QPainter *painter) const
 {
     if (!commonPixmap().isNull()) {
         painter->drawPixmap(rect, commonPixmap());
-    } else {
-        painter->setBrush(Qt::red);
-        painter->setPen(Qt::black);
-        painter->drawRect(rect);
-        painter->setBrush(Qt::darkGray);
-        painter->drawRect(rect.x() + 5, rect.y() + 10, rect.width() - 10, 15);
-    }
+    } 
 }
 
 bool EnemyCar::isOutOfScreen() const
